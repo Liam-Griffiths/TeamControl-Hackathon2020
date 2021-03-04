@@ -1,0 +1,21 @@
+{
+    // Basic Settings
+    "compilerOptions": {
+        "module": "commonjs",
+        "lib": ["es2017"],
+        "rootDir": "./",
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": ".build",
+        // Strict Settings
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "strict": true,
+        "allowJs": true,
+        //"noUnusedLocals": true,
+        //"noUnusedParameters": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules", "build/**/*.*", "jest.config.js"]
+}
